@@ -1,98 +1,197 @@
 * {
+    /* (*) Usamos para informar que existem itens que irão recair sobre todo o HTML*/
     margin: 0;
+    /*zerando a margin do site*/
     padding: 0;
+    /*zerando o preenchimento*/
     list-style: none;
+    /* usado para retirar os estilos das listas*/
     text-decoration: none;
+    /*decoração do texto (sublinhado) desabilitado*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*utilizado para mudar a fonte dos textos*/
 }
 
-header{
+header {
+    /*chamando nosso header para estilização*/
     background-color: #f5e1a4;
+    /*hablitando uma cor no fundo */
     padding: 15px;
+    /*colocando um tamanho no nosso header*/
     display: flex;
+    /*tornando nosso header flex*/
     justify-content: space-between;
+    /*justificativa do conteúdo, podendo alterar do nosso modo*/
     align-items: center;
+    /*alinhando na vertical, deixando no centro */
 }
 
-header h1{
-color: #bc162a;
+header h1 {
+    /*chamando nosso primeiro título para estilização*/
+    color: #bc162a;
+    /*trocando a cor do texto*/
 }
 
 
-header img{
+header img {
+    /*chamando nossa imagem do header para estilização*/
     width: 100px;
+    /*tamanho da imagem*/
     height: auto;
+    /*dando uma altura automatico para a imagem*/
 }
 
 header nav ul {
+    /*chamando nossa ul para estilização*/
     display: flex;
-    
+    /*deixando a ul flex*/
+
 }
 
-header nav ul li{
- margin-right: 10px;  
+header nav ul li {
+    /*chamando nossa li (texto da lista) para estilização*/
+    margin-right: 10px;
+    /*espaçamento das li*/
 }
 
-header nav ul li a{
+header nav ul li a {
+    /*chamando nossa Âncora para estilização*/
     color: #bc162a;
+    /*dando uma cor para o texto na Âncora*/
 }
 
-.sessao1{
-background-color: #d9d593;
-background-image: url(imagens/lemon-1121636_640.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-padding: 300px;
+.sessao1 {
+    /*chamando a sessão para estilização (utilizando o class)*/
+    background-color: #d9d593;
+    /*hablitando uma cor no fundo */
+    background-image: url(imagens/uva2.jpg);
+    /*inserindo uma imagem de fundo*/
+    background-repeat: no-repeat;
+    /*Para que a imagem não se repita*/
+    background-size: cover;
+    /*utilizado para que a iamgem ocupe todo espaço disponível*/
+    padding: 300px;
+    /*Dando um tamnho para nossa sessão*/
 
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    /*tornando nossa sessão flex*/
+    justify-content: center;
+    /*justificativa do conteúdo, podendo alterar do nosso modo*/
+    align-items: center;
+    /*alinhando na vertical, deixando no centro */
 }
 
-.sessao1 button{
+.sessao1 button {
+    /*chamando o botão para estilização (utilizando o class)*/
     width: 250px;
+    /*Tamanho do botão*/
     height: 50px;
-    background-color:  rgba(255, 255, 255, 0.404);
+    /*altura da sessão*/
+    background-color: rgba(255, 255, 255, 0.404);
+    /*hablitando uma cor no fundo */
     border-radius: 10px;
-  
-  
+    /*Arredondamrnto do botão*/
+
 }
 
-.sessao2{
-background-color: #ee7f27;
-padding: 300px;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
+.sessao2 {
+    /*chamando a segunda sessão para estilização (utilizando o class)*/
+    background-color: #ee7f27;
+    /*hablitando uma cor no fundo */
+    padding: 300px;
+    /*Dando um tamnho para nossa sessão*/
+    display: flex;
+    /*tornando nossa sessão flex*/
+    justify-content: space-evenly;
+    /*justificativa do conteúdo, podendo alterar do nosso modo*/
+    align-items: center;
+    /*alinhando na vertical, deixando no centro */
 }
 
 .sessao2 img {
+    /*chamando a imagem da segunda sessão para estilização*/
     width: 400px;
+    /*tamanho da imagem*/
     height: auto;
+    /*Altura da imagem*/
     border-radius: 10px;
+    /*Arredondamrnto da imagem*/
     margin: 15px;
-        
-    }
+    /*Colocando uma margem para todos os lados da imagem*/
 
-.sessao2 h2{
+}
+
+.sessao2 h2 {
+    /*chamando o título da segunda sessão para estilização*/
     font-size: 30px;
+    /*Tamanho do texto*/
 
 }
 
-.sessao2 p{
-color: #bc162a;
-font-size: 15px;
-margin-top: 15px;
+.sessao2 p {
+    /*chamando o parágrafo da segunda sessão para estilização*/
+    color: #bc162a;
+    /*Cor do texto do parágrafo*/
+    font-size: 15px;
+    /*Tamnho do texto*/
+    margin-top: 15px;
+    /*Colocando uma margem na parte superior do parágrafo*/
 }
 
 
-
-.sessao3{
-background-color: #bc162a;
-padding: 300px;
+.sessao3 {
+    /*chamando a terceira sessão para estilização*/
+    background-color: #bc162a;
+    /*hablitando uma cor no fundo */
+    padding: 300px;
+    /*Dando um tamnho para nossa sessão*/
+    background-image: url(imagens/morango1.jpg);
+    /*inserindo uma imagem de fundo*/
+    background-repeat: no-repeat;
+    /*Para que a imagem não se repita*/
+    background-size: cover;
+    /*utilizado para que a iamgem ocupe todo espaço disponível*/
+    background-attachment: fixed;
+    /*Efeito para que a imagem não se mova quando eu estiver navegando na página*/
 }
 
-footer{
+.sessao3 h3 {
+    /*chamando o título da terceira sessão para estilização*/
+    display: flex;
+    /*tornando nosso título flex*/
+    justify-content: center;
+    /*justificativa do conteúdo, podendo alterar do nosso modo*/
+    align-items: center;
+    /*alinhando na vertical, deixando no centro */
+    color: beige;
+    /*Cor do texto do título*/
+}
+
+footer {
+    /*chamando o footer para estilização*/
     background-color: #302325;
+    /*hablitando uma cor no fundo */
     padding: 30px;
+    /*Dando um tamnho para nosso footer*/
+    display: flex;
+    /*tornando nosso footer flex*/
+    justify-content: center;
+    /*justificativa do conteúdo, podendo alterar do nosso modo*/
+    align-items: center;
+    /*alinhando na vertical, deixando no centro */
+}
+
+footer div ol {
+    /*chamando nossa ol do footer para estilização*/
+    display: flex;
+    /*tornando nossa ol flex*/
+}
+
+footer div ol li a { /*chamando nossa Âncora para estilização*/
+    color: beige;
+    /*Cor do texto da Âncora*/
+    display: flex; /*tornando nossa Âncora flex*/
+    justify-content: space-between;
+    /*justificativa do conteúdo, podendo alterar do nosso modo*/
+    margin-right: 20px; /*Espaçamento entre as ol*/
 }
