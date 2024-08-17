@@ -48,16 +48,26 @@ header nav ul {
 
 }
 
-header nav ul li {
+header div nav ul li {
     /*chamando nossa li (texto da lista) para estilização*/
     margin-right: 10px;
     /*espaçamento das li*/
+    /*chamando nossa Âncora para estilização*/
+    color: #bc162a;
+    /*dando uma cor para o texto na Âncora*/
 }
 
 header nav ul li a {
     /*chamando nossa Âncora para estilização*/
     color: #bc162a;
     /*dando uma cor para o texto na Âncora*/
+}
+
+header div nav ul li a:hover {
+    /*hover é utilizado para mudarmos algo quando passamos o mouse em cima de algum item*/
+    color: #302325;
+    /*dando uma cor*/
+    transition: 1s;
 }
 
 .sessao1 {
@@ -94,6 +104,20 @@ header nav ul li a {
 
 }
 
+.sessao1 button:hover {
+    /*hover é utilizado para mudarmos algo quando passamos o mouse em cima de algum item*/
+    background-color: #d9d593;
+    /*hablitando uma cor no fundo */
+    transition: 0.8s;
+    /*colocando uma transição, deixando mais fluido*/
+    color: #bc162a;
+    /*dando uma cor para o botão*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*utilizado para mudar a fonte dos textos*/
+    cursor: pointer;
+    /*mudand o icone do cursor quando passar em cima de algo*/
+}
+
 .sessao2 {
     /*chamando a segunda sessão para estilização (utilizando o class)*/
     background-color: #ee7f27;
@@ -120,6 +144,15 @@ header nav ul li a {
     /*Colocando uma margem para todos os lados da imagem*/
 
 }
+
+.sessao2 img:hover {
+    /*hover é utilizado para mudarmos algo quando passamos o mouse em cima de algum item*/
+    width: 420px;
+    /*tamanho da imagem*/
+    transition: 1s;
+    cursor: pointer;
+}
+
 
 .sessao2 h2 {
     /*chamando o título da segunda sessão para estilização*/
@@ -167,6 +200,7 @@ header nav ul li a {
     /*Cor do texto do título*/
 }
 
+
 footer {
     /*chamando o footer para estilização*/
     background-color: #302325;
@@ -187,11 +221,22 @@ footer div ol {
     /*tornando nossa ol flex*/
 }
 
-footer div ol li a { /*chamando nossa Âncora para estilização*/
+footer div ol li a {
+    /*chamando nossa Âncora para estilização*/
     color: beige;
     /*Cor do texto da Âncora*/
-    display: flex; /*tornando nossa Âncora flex*/
+    display: flex;
+    /*tornando nossa Âncora flex*/
     justify-content: space-between;
     /*justificativa do conteúdo, podendo alterar do nosso modo*/
-    margin-right: 20px; /*Espaçamento entre as ol*/
+    margin-right: 20px;
+    /*Espaçamento entre as ol*/
+}
+
+footer div ol li a:hover {
+    /*hover é utilizado para mudarmos algo quando passamos o mouse em cima de algum item*/
+    color: #bc162a;
+    /*Cor do texto*/
+    transition: 0.8s;
+    /*Transição*/
 }
