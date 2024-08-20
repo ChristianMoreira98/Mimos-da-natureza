@@ -240,3 +240,57 @@ footer div ol li a:hover {
     transition: 0.8s;
     /*Transição*/
 }
+
+
+footer i{ /*Estilizando ícone*/
+    color: black; /*Cores do ícone*/
+    font-size: 40px; /*Tamanho do ícone*/
+    background-color: white; /*Cor de fundo do elemento*/
+    padding: 20px; /*Preenchimento da caixa*/
+    border-radius: 31px; /*Arredondamento da caixa*/
+}
+
+footer i:hover{ /*Aplicando o efeito ao passar o Mouse*/
+    background-color: darkmagenta; /*Cor de fundo*/
+    transition: 0.7s; /*Transição do elemento*/
+}
+
+
+
+
+
+/*ESTILIZAÇÃO TELA 2*/
+
+
+.tela2-section1{
+    background-image: url(imagens/apples-1872997_1280.jpg);
+    padding: 300px;
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.tela2-section1 p{
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.tela2-section1 span{
+    color: #bc162a;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*Lexend fonte escolhida*/
+}
+
+.tela2-section2 {
+padding: 300px;
+background-color: crimson;
+}
+
+.tela2-section3{
+padding: 300px;
+background-color: cadetblue;
+}
