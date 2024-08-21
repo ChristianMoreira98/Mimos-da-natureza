@@ -253,7 +253,7 @@ footer i{ /*Estilizando ícone*/
 }
 
 footer i:hover{ /*Aplicando o efeito ao passar o Mouse*/
-    background-color: darkmagenta; /*Cor de fundo*/
+    background-color: darkgreen; /*Cor de fundo*/
     transition: 0.7s; /*Transição do elemento*/
 }
 
