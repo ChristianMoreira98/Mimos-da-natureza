@@ -110,7 +110,7 @@ header div nav ul li a:hover {
     /*hablitando uma cor no fundo */
     transition: 0.8s;
     /*colocando uma transição, deixando mais fluido*/
-    color: #bc162a;
+    color: red;
     /*dando uma cor para o botão*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /*utilizado para mudar a fonte dos textos*/
@@ -134,7 +134,7 @@ header div nav ul li a:hover {
 
 .sessao2 img {
     /*chamando a imagem da segunda sessão para estilização*/
-    width: 400px;
+    width: 450px;
     /*tamanho da imagem*/
     height: auto;
     /*Altura da imagem*/
@@ -147,7 +147,7 @@ header div nav ul li a:hover {
 
 .sessao2 img:hover {
     /*hover é utilizado para mudarmos algo quando passamos o mouse em cima de algum item*/
-    width: 420px;
+    width: 460px;
     /*tamanho da imagem*/
     transition: 1s;
     cursor: pointer;
@@ -165,10 +165,11 @@ header div nav ul li a:hover {
     /*chamando o parágrafo da segunda sessão para estilização*/
     color: #bc162a;
     /*Cor do texto do parágrafo*/
-    font-size: 15px;
+    font-size: 20px;
     /*Tamnho do texto*/
     margin-top: 15px;
     /*Colocando uma margem na parte superior do parágrafo*/
+    font-weight: 800;
 }
 
 
@@ -198,6 +199,7 @@ header div nav ul li a:hover {
     /*alinhando na vertical, deixando no centro */
     color: beige;
     /*Cor do texto do título*/
+    font-weight: 800;
 }
 
 
@@ -229,7 +231,7 @@ footer div ol li a {
     /*tornando nossa Âncora flex*/
     justify-content: space-between;
     /*justificativa do conteúdo, podendo alterar do nosso modo*/
-    margin-right: 20px;
+    margin-right: 30px;
     /*Espaçamento entre as ol*/
 }
 
@@ -288,7 +290,7 @@ background-position: center;  /*Alinhando a imagem no centro*/
 
 .tela2-section2 { /*Chamando a sessão 2 para estilização*/
 padding: 300px; /*Dando um tamanho pra sessão*/
-background: linear-gradient(180deg, #ff0d51 , #7a8c89 100%)   /*Cor de fundo da sessão*/
+background: linear-gradient(180deg, #ff2c69 , #ff2c69 100%)   /*Cor de fundo da sessão*/
 
 }
 
@@ -419,3 +421,15 @@ padding: 300px;
 background-color: cadetblue;
 }
 
+
+
+
+
+ footer{
+    display: flex
+    ;
+ }
+
+ footer a i {
+    margin-right: 15px;
+ }
