@@ -67,7 +67,7 @@ header div nav ul li a:hover {
     /*hover é utilizado para mudarmos algo quando passamos o mouse em cima de algum item*/
     color: #302325;
     /*dando uma cor*/
-    transition: 1s;
+    transition: 1s; /*Transição do elemento*/
 }
 
 .sessao1 {
@@ -115,7 +115,7 @@ header div nav ul li a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /*utilizado para mudar a fonte dos textos*/
     cursor: pointer;
-    /*mudand o icone do cursor quando passar em cima de algo*/
+    /*mudando icone do cursor quando passar em cima de algo*/
 }
 
 .sessao2 {
@@ -262,19 +262,20 @@ footer i:hover{ /*Aplicando o efeito ao passar o Mouse*/
 /*ESTILIZAÇÃO TELA 2*/
 
 
-.tela2-section1{
-    background-image: url(imagens/apples-1872997_1280.jpg);
-    padding: 300px;
-    background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+.tela2-section1{ /*Chamando sessão 1 para estilização*/
+    background-image: url(imagens/apples-1872997_1280.jpg); /*Inserindo uma imagem de fundo*/
+    padding: 300px; /*Dando um tamanho pra sessão*/
+    background-repeat: no-repeat;  /*Para que a imagem não se repita*/
+background-size: cover; /*Fazendo a imagem preencher todo o espaço disponível*/
+background-position: center;  /*Alinhando a imagem no centro*/
 }
 
-.tela2-section1 p{
-    font-size: 40px;
-    color: white;
+.tela2-section1 p{ /*   Chamando nossa paragrafo para estilização*/
+    font-size: 40px; /*Tamanho do texto*/
+    color: white; /*Cor do texto*/
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
 }
 
 
@@ -285,12 +286,136 @@ background-position: center;
     /*Lexend fonte escolhida*/
 }
 
-.tela2-section2 {
-padding: 300px;
-background-color: crimson;
+.tela2-section2 { /*Chamando a sessão 2 para estilização*/
+padding: 300px; /*Dando um tamanho pra sessão*/
+background: linear-gradient(180deg, #ff0d51 , #7a8c89 100%)   /*Cor de fundo da sessão*/
+
 }
+
+.div-pai{ /*Div pai - Dentro dele existem 3 caixas*/
+margin-bottom: 10px; /*Dando um espaço na parte de baixo da caixa*/
+  display: flex; /*Tornando os itens flex, deixando as caixas lado a lado*/
+  justify-content: center /*Justificando os itens ao centro*/
+}
+
+.div-pai div{ /*Estilização das caixas (Div filho)*/
+    width: 200px; /*Largura da caixa*/
+    height: 280px; /*Altura da caixa*/
+  background-color: #bc162a;
+    margin-right: 20px; /*Dando um espaço na direta da caixa*/
+    border-radius: 10px; /*Arrendondamento da caixa*/
+}
+
+.div-pai .filho1{ /*Chamando a div filho1 para estilização*/
+    background-image: url(imagens/berries-6523899_1280.jpg); /*Inserindo uma imagem de fundo*/
+    background-position: center; /*Alinhando a imagem no centro*/
+    background-size: cover; /*Fazendo a imagem preencher todo o espaço disponível*/
+    border: solid 2px #302325 /*Colocando uma borda com cor na imagem*/
+}
+
+.div-pai .filho1:hover{ /*Hover utilizamos para mudar algo quando passamos o mouse em cima da caixa*/
+ cursor: pointer; /*mudando icone do cursor quando passar em cima de algo*/
+ width: 210px; /*Largura da caixa*/
+ height: 290px; /*Altura da caixa*/
+ transition: 0.8s /*Transição do elemento*/
+ 
+}
+
+.div-pai .filho2{ /*Chamando a div filho 2 para estilização*/
+background-image: url(imagens/bananas-5969730_1280.jpg); /*Inserindo uma imagem de fundo*/
+background-size: cover; /*mudando icone do cursor quando passar em cima de algo*/
+background-position: center; /*Alinhando a imagem no centro*/
+border: solid 2px #302325 /*Colocando uma borda com cor na imagem*/
+}
+
+.div-pai .filho2:hover{ /*Hover utilizamos para mudar algo quando passamos o mouse em cima da caixa*/
+ cursor: pointer; /*mudando icone do cursor quando passar em cima de algo*/
+ width: 210px; /*Largura da caixa*/
+ height: 290px; /*Altura da caixa*/
+ transition: 0.8s /*Transição do elemento*/
+}
+
+
+.div-pai .filho3{
+    background-image: url(imagens/kiwi-5470113_1280.jpg); /*Inserindo uma imagem de fundo*/
+    background-size: cover; /*mudando icone do cursor quando passar em cima de algo*/
+    background-position: center; /*Alinhando a imagem no centro*/
+    border: solid 2px #302325  /*Colocando uma borda com cor na imagem*/
+}
+
+.div-pai .filho3:hover{ /*Hover utilizamos para mudar algo quando passamos o mouse em cima da caixa*/
+cursor: pointer; /*mudando icone do cursor quando passar em cima de algo*/
+ width: 210px; /*Largura da caixa*/
+ height: 290px; /*Altura da caixa*/
+ transition: 0.8s /*Transição do elemento*/
+}
+
+
+
+.div-pai2 .filho4{
+    background-image: url(imagens/watermelon-5484460_1280.jpg); /*Inserindo uma imagem de fundo*/
+    background-size: cover; /*mudando icone do cursor quando passar em cima de algo*/
+    background-position: center; /*Alinhando a imagem no centro*/
+    border: solid 2px #302325 /*Colocando uma borda com cor na imagem*/
+}
+
+.div-pai2 .filho4:hover{ /*Hover utilizamos para mudar algo quando passamos o mouse em cima da caixa*/
+ cursor: pointer; /*mudando icone do cursor quando passar em cima de algo*/
+ width: 210px; /*Largura da caixa*/
+ height: 290px; /*Altura da caixa*/
+ transition: 0.8s /*Transição do elemento*/
+}
+
+
+.div-pai2 .filho5{
+background-image: url(imagens/lemon-1121636_640.jpg); /*Inserindo uma imagem de fundo*/
+background-size: cover; /*mudando icone do cursor quando passar em cima de algo*/
+    background-position: center; /*Alinhando a imagem no centro*/
+    border: solid 2px #302325 /*Colocando uma borda com cor na imagem*/
+}
+
+.div-pai2 .filho5:hover{ /*Hover utilizamos para mudar algo quando passamos o mouse em cima da caixa*/
+ cursor: pointer; /*mudando icone do cursor quando passar em cima de algo*/
+ width: 210px; /*Largura da caixa*/
+ height: 290px; /*Altura da caixa*/
+ transition: 0.8s /*Transição do elemento*/
+}
+
+.div-pai2 .filho6{
+    background-image: url(imagens/this-2455298_1280.jpg); /*Inserindo uma imagem de fundo*/
+    background-size: cover; /*mudando icone do cursor quando passar em cima de algo*/
+    background-position: center; /*Alinhando a imagem no centro*/
+    border: solid 2px #302325 /*Colocando uma borda com cor na imagem*/
+}
+
+.div-pai2 .filho6:hover{ /*Hover utilizamos para mudar algo quando passamos o mouse em cima da caixa*/
+ cursor: pointer; /*mudando icone do cursor quando passar em cima de algo*/
+ width: 210px; /*Largura da caixa*/
+ height: 290px; /*Altura da caixa*/
+ transition: 0.8s /*Transição do elemento*/
+}
+
+
+
+
+
+.div-pai2{ /*Div pai - Dentro dele existem 3 caixas*/
+
+    display: flex; /*Deixando os itens flex, deixando as caixas lado a lado*/
+    justify-content: center /*Justicando os itens ao centro*/
+}
+
+.div-pai2 div{ /*Estilização das caixas (Div filho)*/
+    width: 200px; /*Largura da caixa*/
+    height: 280px; /*Altura da caixa*/
+    background-color:  #d9d593; /*Cor de fundo da caixa*/
+    margin-right: 20px; /*Dando espaço na parte direita da caixa*/
+    border-radius: 10px; /*Arredondamento da caixa*/
+}
+
 
 .tela2-section3{
 padding: 300px;
 background-color: cadetblue;
 }
+
