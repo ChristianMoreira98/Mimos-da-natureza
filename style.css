@@ -92,6 +92,10 @@ header div nav ul li a:hover {
     /*alinhando na vertical, deixando no centro */
 }
 
+#saiba-mais{ /*Usamos o # para chamar um id para estilização*/
+
+}
+
 .sessao1 button {
     /*chamando o botão para estilização (utilizando o class)*/
     width: 250px;
@@ -123,7 +127,7 @@ header div nav ul li a:hover {
     /*chamando a segunda sessão para estilização (utilizando o class)*/
     background-color: #ee7f27;
     /*hablitando uma cor no fundo */
-    padding: 300px;
+    padding: 250px;
     /*Dando um tamnho para nossa sessão*/
     display: flex;
     /*tornando nossa sessão flex*/
@@ -144,6 +148,7 @@ header div nav ul li a:hover {
     margin: 15px;
     /*Colocando uma margem para todos os lados da imagem*/
 
+
 }
 
 .sessao2 img:hover {
@@ -157,7 +162,7 @@ header div nav ul li a:hover {
 
 .sessao2 h2 {
     /*chamando o título da segunda sessão para estilização*/
-    font-size: 30px;
+    font-size: 40px;
     /*Tamanho do texto*/
 
 }
@@ -166,7 +171,7 @@ header div nav ul li a:hover {
     /*chamando o parágrafo da segunda sessão para estilização*/
     color: #bc162a;
     /*Cor do texto do parágrafo*/
-    font-size: 20px;
+    font-size: 15px;
     /*Tamnho do texto*/
     margin-top: 15px;
     /*Colocando uma margem na parte superior do parágrafo*/
@@ -178,7 +183,7 @@ header div nav ul li a:hover {
     /*chamando a terceira sessão para estilização*/
     background-color: #bc162a;
     /*hablitando uma cor no fundo */
-    padding: 300px;
+    padding: 250px;
     /*Dando um tamnho para nossa sessão*/
     background-image: url(imagens/morango1.jpg);
     /*inserindo uma imagem de fundo*/
@@ -242,29 +247,6 @@ footer div ol li a:hover {
     /*Cor do texto*/
     transition: 0.8s;
     /*Transição*/
-}
-
-
-footer i {
-    /*Estilizando ícone*/
-    color: black;
-    /*Cores do ícone*/
-    font-size: 40px;
-    /*Tamanho do ícone*/
-    background-color: white;
-    /*Cor de fundo do elemento*/
-    padding: 20px;
-    /*Preenchimento da caixa*/
-    border-radius: 31px;
-    /*Arredondamento da caixa*/
-}
-
-footer i:hover {
-    /*Aplicando o efeito ao passar o Mouse*/
-    background-color: darkgreen;
-    /*Cor de fundo*/
-    transition: 0.7s;
-    /*Transição do elemento*/
 }
 
 
@@ -514,45 +496,116 @@ footer i:hover {
 
 .tela2-section3 {
     padding: 200px;
-    background-color: cadetblue;
+    /*Definindo o espaço da sessão*/
+    background-color: orangered;
+    /*Cor de fundo da sessão*/
     display: flex;
+    /*Alinhando itens na vertical*/
     justify-content: space-evenly;
+    /*justificativa do conteúdo, podendo alterar do nosso modo*/
 }
 
 
 
 
 .titulo h2 {
+    /*Cor do parágrafo*/
     color: #fff;
-    margin: 30px;
+    margin: 35px;
+    /*Dando uma margem em todos os lados*/
     font-size: 25px;
+    /*Tamanho do texto*/
 }
 
 
 .titulo p {
     color: #fff;
+    /*Cor do parágrafo*/
     margin: 30px;
-    font-size: 18px;
+    /*Dando uma margem em todos os lados*/
+    font-size: 19px;
+    /*Tamanho do texto*/
     font-weight: 450;
+    /*Deixando o texto mais forte*/
 }
 
 
 .div-iframe iframe {
     border-radius: 40px;
+    /*Arrendondamento */
 }
 
 .footer {
     padding: 100px;
+    /*Tamanho do footer*/
     display: flex;
+    /*Alinhando itens na vertical*/
     justify-content: space-evenly;
+    /*justificativa do conteúdo, podendo alterar do nosso modo*/
     align-items: center;
+    /*Alinhando itens ao centro*/
+}
+
+
+.footer div h2 {
+    color: #fff;
+    /*Trocando a cor do título*/
 }
 
 .footer a i {
     margin-right: 15px;
+    /*Dando*/
 }
 
 
-.div-line img{
+footer i {
+    /*Estilizando ícone*/
+    color: black;
+    /*Cores do ícone*/
+    font-size: 40px;
+    /*Tamanho do ícone*/
+    background-color: white;
+    /*Cor de fundo do elemento*/
+    padding: 20px;
+    /*Preenchimento da caixa*/
+    border-radius: 31px;
+    /*Arredondamento da caixa*/
+    margin-top: 20px;
+    /*Dando um espaço no topo*/
+}
+
+footer i:hover {
+    /*Aplicando o efeito ao passar o Mouse*/
+    background-color: orangered;
+    /*Cor de fundo*/
+    transition: 0.7s;
+    /*Transição do elemento*/
+}
+
+
+
+.div-line img {
     width: 100px;
+    /*Tamanho da imagem*/
+}
+
+.div-line .line {
+    width: 100px;
+    /*Largura da linha*/
+    height: 2px;
+    /*Altura da linha*/
+    background-color: #bc162a;
+    /*Cor de fundo da linha*/
+    margin-top: 12px;
+    /*Dando um espaço no topo*/
+    border-radius: 10px;
+    /*Arredondamento da borda*/
+}
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
 }

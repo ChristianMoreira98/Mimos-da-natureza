@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mimos da Natureza</title>
+        <script src="https://kit.fontawesome.com/c65f603f95.js" crossorigin="anonymous"></script>
         <link rel="shortcut icon" href="imagens/frutas.png" type="image/x-icon">
         <link rel="stylesheet" href="style.css">
     </head>
@@ -17,9 +18,9 @@
                 <nav>
                     <!--Nav usamos para informar ao navegador que essa sessão em específica é navegável-->
                     <ul> <!--UL é uma lista não ordenada-->
-                        <li><a href> <strong>Home</strong></a></li>
-                        <li><a href ><strong>Quem somos?</strong></a></li>
-                        <li><a href target="_blank"><strong>Login</strong></a></li>
+                        <li><a href="#uvas"> <strong>Home</strong></a></li>
+                        <li><a href="#laranja" ><strong>Quem somos?</strong></a></li>
+                        <li><a href="#morango"><strong>Login</strong></a></li>
                         <!--LI é o que está escrito na nossa lista - strong usamos para deixar o texto em negrito - a é a nossa Âncora , que utilizamos para o texto se tornar clicável e nos direcionar para outra página-->
                     </ul>
                 </nav>
@@ -29,14 +30,14 @@
         <main>
             <!--main usamos para informar que essa é a sessão principal da página-->
 
-            <section class="sessao1">
+            <section class="sessao1" id="uvas">
                 <!--section usamos para criar uma sessão com itens - class usamos para poder chamar an tag para estilização no css-->
                 <div><a href="tela2.html" ><button>Saiba mais</button></a></div>
                 <!--button uitlizamos para criar um botão-->
 
             </section>
 
-            <section class="sessao2">
+            <section class="sessao2" id="laranja">
                 <!--section usamos para criar uma sessão com itens - class usamos para poder chamar an tag para estilização no css-->
                 <div>
                     <!--Div é uma caixa, um quadrado onde podemos inserir elementos, estilizar, entre outros itens.-->
@@ -70,7 +71,7 @@
 
             </section>
 
-            <section class="sessao3">
+            <section class="sessao3" id="morango">
                 <!--section usamos para criar uma sessão com itens - class usamos para poder chamar an tag para estilização no css-->
 
                 <h3> <!--h3 é o nosso terceiro título-->
@@ -82,17 +83,20 @@
 
         </main>
 
-        <footer> <!--footer é o rodapé da página-->
+        <footer class="footer">
+            <div class="div-line">
+                <img src="imagens/fruta.png" alt="icon frutas">
+                <hr class="line">
+            </div> 
+
             <div>
-                <!--Div é uma caixa, um quadrado onde podemos inserir elementos, estilizar, entre outros itens.-->
-                <ol> <!--ol é uma lista ordenada-->
-                    <li><a href> Certificado de alimentos </a></li>
-                    <li> <a href> Política de privacidade</a></li>
-                    <li><a href> @mimosdanatureza</a> </li>
-                    <!--LI é o que está escrito na nossa lista-->
-                    <!--a é a nossa Âncora , que utilizamos para o texto se tornar clicável e nos direcionar para outra página-->
-                </div>
-            </ol>
+<h2>Nossas mídias sociais:</h2>
+<a href="https://www.instagram.com/chris_moreiraaa/"><i class="fa-brands fa-instagram"></i></a>
+<a href="https://www.youtube.com/watch?v=QEY0veirJHM"><i class="fa-brands fa-youtube"></i></a>
+<a href="https://x.com"><i class="fa-brands fa-x-twitter"></i></a>
+
+            </div>
+
         </footer>
     </body>
 </html>
